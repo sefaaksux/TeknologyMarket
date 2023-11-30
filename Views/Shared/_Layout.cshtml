@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <div class="container">     
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FormApp</a>
@@ -19,16 +20,17 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                        
+                        
                     </ul>
                 </div>
             </div>
+            <form class="d-flex" asp-action="Index" method="get">
+                <input type="search" name="searchString" placeholder="Aranacak kelime" value="@ViewBag.SearchString" id="">
+                <button type="submit" class="btn btn-primary">Ara</button>
+            </form>
         </nav>
+        </div>
     </header>
     <div class="container">
         <main role="main" class="pb-3">

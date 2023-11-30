@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AKSU\\Desktop\\FormApp\\FormApp.csproj": {}
+    "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\FormApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AKSU\\Desktop\\FormApp\\FormApp.csproj": {
+    "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\FormApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AKSU\\Desktop\\FormApp\\FormApp.csproj",
+        "projectUniqueName": "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\FormApp.csproj",
         "projectName": "FormApp",
-        "projectPath": "C:\\Users\\AKSU\\Desktop\\FormApp\\FormApp.csproj",
+        "projectPath": "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\FormApp.csproj",
         "packagesPath": "C:\\Users\\AKSU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AKSU\\Desktop\\FormApp\\obj\\",
+        "outputPath": "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AKSU\\AppData\\Roaming\\NuGet\\NuGet.Config",

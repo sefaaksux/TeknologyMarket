@@ -10,7 +10,7 @@
             <th style="width: 250px;">@Html.DisplayNameFor(m=>m.Image)</th>
             <th>@Html.DisplayNameFor(m=>m.Name)</th>
             <th style="width: 150px;">@Html.DisplayNameFor(m=>m.Price)</th>
-            <th style="width: 80px;">@Html.DisplayNameFor(m=>m.IsActive)</th>
+            
             <th style="width: 150px;"></th>
         </tr>
     </thead>
@@ -23,14 +23,12 @@
                 </td>
                 <td>@prd.Name</td>
                 <td>@prd.Price</td>
-                <td>@prd.IsActive</td>
+                
                 <td>
                     <a href="#">Edit</a>
                     <a href="#">Delete</a>
-
                 </td> 
             </tr>
         }
     </tbody>
-
 </table>
