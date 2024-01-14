@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\FormApp.csproj": {}
+    "C:\\Users\\sefaa\\OneDrive\\Masaüstü\\TeknologyMarket\\FormApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\FormApp.csproj": {
+    "C:\\Users\\sefaa\\OneDrive\\Masaüstü\\TeknologyMarket\\FormApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\FormApp.csproj",
+        "projectUniqueName": "C:\\Users\\sefaa\\OneDrive\\Masaüstü\\TeknologyMarket\\FormApp.csproj",
         "projectName": "FormApp",
-        "projectPath": "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\FormApp.csproj",
-        "packagesPath": "C:\\Users\\AKSU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AKSU\\Desktop\\TeknologyMarket\\obj\\",
+        "projectPath": "C:\\Users\\sefaa\\OneDrive\\Masaüstü\\TeknologyMarket\\FormApp.csproj",
+        "packagesPath": "C:\\Users\\sefaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sefaa\\OneDrive\\Masaüstü\\TeknologyMarket\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\AKSU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sefaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -58,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,28 @@
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<form method="post" asp-action="Create">
+    <label>Kullanıcı Adı:</label>
+    <input type="text" name="username" required />
+
+    <label>Şifre:</label>
+    <input type="password" name="password" required />
+
+    <button type="submit">Giriş Yap</button>
+</form>
+
+
+
+<!-- <form asp-controller="Home" asp-action="Security" method="post">
+    <div>
+        <label class="form-label">user name :</label>
+        <input name="usernamee" type="text" class="form-control">
+    </div>
+    <div>
+        <label class="form-label">password :</label>
+        <input name="passwordd" type="text" class="form-control">
+    </div>
+</form> -->

@@ -1,0 +1,37 @@
+@model Product
+
+@{
+    ViewData["Title"] = "CREATE";
+}
+<h1>ADMİN SAYFASI</h1>
+<form asp-controller="Admin" asp-action="Index" method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Name</label>
+        <input asp-for="Name" class="form-control">
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label">Price</label>
+        <input asp-for="Price" class="form-control">
+        <span asp-validation-for="Price"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Image" class="form-label">Image</label>
+        <input asp-for="Image" class="form-control">
+        <span asp-validation-for="Image"></span>
+    </div>
+    <div class="mb-3">       
+        <select asp-for="CategoryId" class="form-label" asp-items="ViewBag.Categories">
+            <option value="">Hepsi</option>
+            <span asp-validation-for="CategoryId"></span>
+        </select>      
+    </div>
+    <div class="mb-3">
+        <input asp-for="IsActive" class="form-check-input">
+        <label asp-for="IsActive" class="form-check-label">IsActive</label>
+    </div>
+    <button class="btn btn-primary" type="submit">Kaydet</button>
+
+</form>
+
+

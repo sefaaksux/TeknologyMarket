@@ -1,0 +1,8 @@
+C:\Users\sefaa\OneDrive\Masaüstü\TeknologyMarket\obj\Debug\net5.0\FormApp.csproj.AssemblyReference.cache
+C:\Users\sefaa\OneDrive\Masaüstü\TeknologyMarket\obj\Debug\net5.0\FormApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sefaa\OneDrive\Masaüstü\TeknologyMarket\obj\Debug\net5.0\FormApp.AssemblyInfoInputs.cache
+C:\Users\sefaa\OneDrive\Masaüstü\TeknologyMarket\obj\Debug\net5.0\FormApp.AssemblyInfo.cs
+C:\Users\sefaa\OneDrive\Masaüstü\TeknologyMarket\obj\Debug\net5.0\FormApp.csproj.CoreCompileInputs.cache
+C:\Users\sefaa\OneDrive\Masaüstü\TeknologyMarket\obj\Debug\net5.0\FormApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sefaa\OneDrive\Masaüstü\TeknologyMarket\obj\Debug\net5.0\FormApp.RazorAssemblyInfo.cache
+C:\Users\sefaa\OneDrive\Masaüstü\TeknologyMarket\obj\Debug\net5.0\FormApp.RazorAssemblyInfo.cs
